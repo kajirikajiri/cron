@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /mnt/c/Obsidian && git add . && git commit -m 'cron' && git push
+cd /mnt/c/Obsidian && git add . && git commit -m 'cron' && git push > myjob.log 2>&1
 
